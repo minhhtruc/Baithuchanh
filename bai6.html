@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+    td {
+        border: 1px solid;
+        padding: 10px;
+    }
+    
+    .so4 {
+        background-color: orange;
+    }
+    
+    .so6 {
+        background-color: yellow;
+    }
+</style>
+
+<body>
+    <h1>Bài 6</h1>
+    <div style="    width: 140px;
+                    box-shadow: 1px 1px 10px 9px #aaa;">
+        <table>
+            <tr>
+                <td>1</td>
+                <td colspan="4">2</td>
+            </tr>
+            <tr>
+
+                <td rowspan="3">3</td>
+                <td class="so4">4</td>
+                <td class="so4">5</td>
+                <td class="so6" colspan="2" rowspan="2">6</td>
+            </tr>
+            <tr>
+                <td class="so4">7</td>
+                <td class="so4">8</td>
+            </tr>
+            <tr>
+                <td class="so6" colspan="2">9</td>
+                <td class="so6" colspan="2">10</td>
+
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
